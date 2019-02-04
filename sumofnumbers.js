@@ -1,3 +1,4 @@
+// 23:34 time for WOD
 // function to add using a for loop
 function sumFor(list) {
   let sum = 0;
