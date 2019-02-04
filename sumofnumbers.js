@@ -9,6 +9,7 @@ function sumFor(list) {
 
 console.log(sumFor([1, 2, 3]));
 
+// function to add using while loop
 function sumWhile(list) {
   let sum = 0;
   let i = 0;
@@ -21,6 +22,7 @@ function sumWhile(list) {
 
 console.log(sumWhile([1, 2, 3]));
 
+// function to add recursively
 function sumRecursion(list, i) {
   if (i <= 0) {
     return 0;
@@ -30,7 +32,7 @@ function sumRecursion(list, i) {
 
 console.log(sumRecursion([1, 2, 3], 3));
 
-
+// function to add using underscore functions (functional programming)
 function sumTheSimpleWay(list) {
   return _.reduce(list, function (memo, num) { return memo + num; }, 0);
 }
